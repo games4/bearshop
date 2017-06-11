@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;  
+  background: url("../barbershop-shop-transparent-50.jpg") no-repeat 50% 0px;
+}
+
+.page-header {
+  margin-bottom: 55px;
+
+  min-height: 72px;
+  
+//  outline: yellow solid 1px;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  
+//  outline: green solid 2px;
+}
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+  
+//  border: red solid 1px; 
+}
+
+/* ширина 150 */
+.main-nav_logo {
+  display: inline-block;
+  width: 150px;
+  height: 23px;
+}
+
+/* ширина 620 */
+.main-nav_list {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.main-nav_item {
+  display: inline-block;
+  line-height: 23px;
+  vertical-align: bottom;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  border: red solid 1px; 
+}
+
+.content-header {
+  margin-bottom: 40px;
+ 
+}
+
+.main-title {
+  
+}
+
+.breadcrumbs {
+  
+}
+
+.breadcrumbs li {
+  display: inline-block;
+}
+
+.content {
+  outline: red solid 1px;
+
+}
+
+.filters {
+  float: left;
+  width: 220px;
+
+//  outline: yellow solid 1px;
+
+}
+
+.filters-group {
+  margin-bottom: 40px;
+}
+
+.products {
+  float: right;
+  width: 700px;    
+
+//  outline: blue solid 1px;
+}
+
+.products_list {
+  padding: 0;
+  margin: 0; 
+  margin-bottom: 40px;
+} 
+
+.products_list::after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+.product-item {
+  float: left;
+  width: 220px;
+  min-height: 286px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  
+//  outline: magenta solid 1px;
+}
+
+.product-image {
+  margin: 0;
+  padding: 0;
+  width: 220px;
+  height: 165px;
+  
+}
+
+
+
